@@ -5,10 +5,7 @@ import pymongo
 import json
 import sys, getopt, pprint
 from pymongo import MongoClient
-from collections import Counter
 
-
-print("mjao")
 url = 'https://covid.ourworldindata.org/data/owid-covid-data.csv'
 response = requests.get(url, allow_redirects=True)
 
